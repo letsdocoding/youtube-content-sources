@@ -1,0 +1,53 @@
+@startuml my simple order request
+
+header //LetDoCoding
+footer Page %page% of %lastpage%
+title "Orders Flow - DEPRECATED"
+actor "Web User" as WebUser
+participant "Front End" as Portal 
+participant Gateway
+participant "Identity\nServer" as IdentityServer #yellow
+participant "Rest Api" as RestApi
+database OrdersDatabase
+entity "External \nShipping Service" as ExternalShippingService
+
+autonumber
+WebUser -> Portal ++ : Orders Request
+group Step: Authentication
+    Portal -> Gateway ++: GET /api/v1/orders\nBearer Token
+    Gateway -> IdentityServer ++: Authenticate Token
+    IdentityServer --> IdentityServer : Validate\nToken
+    IdentityServer -[#green]> Gateway : Success, Token Validated
+else Authentication Failed
+    autonumber 5
+    IdentityServer -[#red]> Gateway -- : Request Failed
+    Gateway -[#red]> Portal : Authentication Failure
+    Portal -[#red]> WebUser : Login Again.
+    note right : Authentication has failed
+end
+
+autonumber 6
+group Call Order API
+    Gateway -> RestApi ++ : GET api/v1/orders
+    RestApi --[#blue]> RestApi : Do Some\nProcessing
+    group Database Interaction
+        autonumber 8.1
+        RestApi -> OrdersDatabase ++: Query Orders
+        OrdersDatabase -> RestApi --: Orders
+    end
+
+    'loop
+    autonumber inc A
+    loop Find shipping status
+        'create ExternalShippingService
+        RestApi -> ExternalShippingService ++: Find Shipping Staus
+        ExternalShippingService -> RestApi -- : Return Shipping Status
+    end
+    autonumber 9
+    RestApi -> Portal --: Orders
+end
+Portal -> WebUser --: Response
+
+
+
+@enduml
