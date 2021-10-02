@@ -1,12 +1,12 @@
 @startuml my simple order request
-
 header //LetDoCoding
 footer Page %page% of %lastpage%
 title "Orders Flow"
 actor "Web User" as WebUser
 participant "Front End" as Portal 
 participant Gateway
-participant "Identity\nServer" as IdentityServer #yellow
+'participant "Identity\nServer" as IdentityServer #yellow
+participant "Identity\nServer" as IdentityServer 
 participant "Rest Api" as RestApi
 database OrdersDatabase
 entity "External \nShipping Service" as ExternalShippingService
