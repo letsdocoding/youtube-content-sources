@@ -8,12 +8,12 @@ In this video we shall discuss and understand how we can add colors and themes a
 
 ### Diagram
 
-[![IMAGE ALT TEXT](https://github.com/letsdocoding/youtube-content-sources/blob/main/plantuml/order-flow/my%20simple%20order%20request.png)](https://github.com/letsdocoding/youtube-content-sources/blob/main/plantuml/order-flow/my%20simple%20order%20request.png "Order Flow Diagram")
+[![IMAGE ALT TEXT](https://github.com/letsdocoding/youtube-content-sources/blob/main/plantuml_themed/order-flow/my%20simple%20order%20request.png)](https://github.com/letsdocoding/youtube-content-sources/blob/main/plantuml_themed/order-flow/my%20simple%20order%20request.png "Order Flow Diagram")
 
-[![IMAGE ALT TEXT](https://github.com/letsdocoding/youtube-content-sources/blob/main/plantuml/order-flow/my%20simple%20order%20request-1.png)](https://github.com/letsdocoding/youtube-content-sources/blob/main/plantuml/order-flow/my%20simple%20order%20request-1.png "Order Flow Diagram Variant 1")
+[![IMAGE ALT TEXT](https://github.com/letsdocoding/youtube-content-sources/blob/main/plantuml_themed/order-flow/my%20simple%20order%20request-1.png)](https://github.com/letsdocoding/youtube-content-sources/blob/main/plantuml_themed/order-flow/my%20simple%20order%20request-1.png "Order Flow Diagram Variant 1")
 
-[![IMAGE ALT TEXT](https://github.com/letsdocoding/youtube-content-sources/blob/main/plantuml/order-flow/my%20simple%20order%20request-2.png)](https://github.com/letsdocoding/youtube-content-sources/blob/main/plantuml/order-flow/my%20simple%20order%20request-2.png "Order Flow Diagram Variant 2")
+[![IMAGE ALT TEXT](https://github.com/letsdocoding/youtube-content-sources/blob/main/plantuml_themed/order-flow/my%20simple%20order%20request-2.png)](https://github.com/letsdocoding/youtube-content-sources/blob/main/plantuml_themed/order-flow/my%20simple%20order%20request-2.png "Order Flow Diagram Variant 2")
 
-[![IMAGE ALT TEXT](https://github.com/letsdocoding/youtube-content-sources/blob/main/plantuml/order-flow/my%20simple%20order%20request-3.png)](https://github.com/letsdocoding/youtube-content-sources/blob/main/plantuml/order-flow/my%20simple%20order%20request-3.png "Order Flow Diagram Variant 3")
+[![IMAGE ALT TEXT](https://github.com/letsdocoding/youtube-content-sources/blob/main/plantuml_themed/order-flow/my%20simple%20order%20request-3.png)](https://github.com/letsdocoding/youtube-content-sources/blob/main/plantuml_themed/order-flow/my%20simple%20order%20request-3.png "Order Flow Diagram Variant 3")
 
-[![IMAGE ALT TEXT](https://github.com/letsdocoding/youtube-content-sources/blob/main/plantuml/order-flow/my%20simple%20order%20request-4.png)](https://github.com/letsdocoding/youtube-content-sources/blob/main/plantuml/order-flow/my%20simple%20order%20request-4.png "Order Flow Diagram Variant 4")
+[![IMAGE ALT TEXT](https://github.com/letsdocoding/youtube-content-sources/blob/main/plantuml_themed/order-flow/my%20simple%20order%20request-4.png)](https://github.com/letsdocoding/youtube-content-sources/blob/main/plantuml_themed/order-flow/my%20simple%20order%20request-4.png "Order Flow Diagram Variant 4")
