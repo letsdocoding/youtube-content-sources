@@ -6,6 +6,9 @@ This is an extension to the previous master class where we have covered the Plan
 
 In this video we shall discuss and understand how we can add colors and themes and also basics of how it works under the hoods. With this we can change the basic diagram that looks like below into further variants.
 
+## Related Video
+[![IMAGE ALT TEXT HERE](https://img.youtube.com/vi/wArN4PPMZcM/0.jpg)](https://www.youtube.com/watch?v=wArN4PPMZcM)
+
 ### Diagram
 
 [![IMAGE ALT TEXT](https://github.com/letsdocoding/youtube-content-sources/blob/main/plantuml_themed/order-flow/my%20simple%20order%20request.png)](https://github.com/letsdocoding/youtube-content-sources/blob/main/plantuml_themed/order-flow/my%20simple%20order%20request.png "Order Flow Diagram")
