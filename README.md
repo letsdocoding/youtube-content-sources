@@ -4,5 +4,5 @@ This repository is placeholder for standalone or focused demos / labs which migh
 ## Index
 1. [PlantUML Master Class](https://github.com/letsdocoding/youtube-content-sources/tree/main/plantuml)  ==> https://youtu.be/JqJpbNxIK90
 2. [PlantUML CI Integration](https://github.com/letsdocoding/youtube-content-sources/tree/main/plantuml_ci) ==> WIP
-3. [PlantUML Master Class](https://github.com/letsdocoding/youtube-content-sources/tree/main/plantuml_themed)  ==> https://youtu.be/wArN4PPMZcM
+3. [PlantUML Themes Master Class](https://github.com/letsdocoding/youtube-content-sources/tree/main/plantuml_themed)  ==> https://youtu.be/wArN4PPMZcM
 
